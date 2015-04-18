@@ -15,8 +15,8 @@ struct shared_data_info {
 	struct charm *charm_buf; // shared buffer
 };
 
-// This is now declared in semaphore.h, which is
-// generated from rpcgen semaphore.x
+// This is now declared in main.h, which is
+// generated from calling "rpcgen main.x"
 /*
 struct charm {
     enum COLOR
